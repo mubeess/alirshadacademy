@@ -73,10 +73,26 @@ height: 70px;
             Al-Irshad Academy
         </Typography>
         <ul className='listItems'>
-            <li><a>Home</a></li>
-            <li><a>About</a></li>
-            <li><a>Gallery</a></li>
-            <li><a>Contact</a></li>
+            <li onClick={()=>{
+            props.history.push('/')
+            
+
+        }}><a>Home</a></li>
+            <li onClick={()=>{
+            props.history.push('/about')
+           
+
+        }}><a>About</a></li>
+            <li onClick={()=>{
+            props.history.push('/gallery')
+            
+
+        }}><a>Gallery</a></li>
+            <li onClick={()=>{
+            props.history.push('/contact')
+            setOpen(false)
+
+        }}><a>Contact</a></li>
         </ul>
     <IconButton onClick={()=>{
         setOpen(true)

@@ -65,7 +65,8 @@ export default function Footer() {
                  marginLeft:'10px',
                  marginRight:'10px'
              }} variant='body1'>
-             Opposite Lamdo Khadi's Masjid, Mayo-Belwa Local Government.
+             Old Motor park,
+             Opposite Lamido Kabbi's Mosque, Mayo-Belwa.
              </Typography>
              <Typography style={{
                  marginTop:'20px'

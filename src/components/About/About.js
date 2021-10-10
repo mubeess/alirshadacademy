@@ -38,11 +38,14 @@ useEffect(() => {
             </div>
             <div className='main'>
                 <Typography style={{textAlign:'justify',marginRight:'20px',marginLeft:'20px'}} variant='body1'>
-                AL-IRSHAD ACADEMY MAYO-BELWA has been established in the year 2010
-               Junior Secondary School was also esterblished in the year 2015
-              Qur'anic Recitation and Memorization was established in the year 2010,
-              The first graduation was at 14th August 2015
-And also the enrolment in JSS ONE was at 15th August 2015.
+                AL-IRSHAD ACADEMY MAYO-BELWA was established in the year 2010,
+                 by Malam Mustapha Bala Abdullahi. It commences it's educational 
+                 activities with Primary and Quranic Memorization Sections so as to
+                  give our teaming children both Western and Islamic education simultaneously. 
+                  After a successful academic progress, the school graduated it's first
+                   pioneer students in the year 2015 and introduced the Junior secondary
+                    School in 2015 to keep building on the solid foundation 
+                already laid by the prudent management of the school.
                 </Typography>
             </div>
         </StyledAbout>

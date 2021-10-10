@@ -211,7 +211,7 @@ export default function Home() {
                fontWeight:'bold',
                marginLeft:'20px'
            }} variant='h4'>
-           Knowledge and Fear Allah!!!
+           Knowledge and Fear Of Allah!!!
            </Typography>
 
            <Typography style={{
@@ -434,7 +434,7 @@ export default function Home() {
                marginLeft:'20px',
            }} variant='h5'>
               The School was introduced and esterblished by Malam Mustapha Bala  Abdullahi, in accordance
-               with the prevalence law and approval of MINISTRY OF EDUCATION Adamawa state..
+               with the prevalence law and approval of MINISTRY OF EDUCATION, Adamawa state..
 
            </Typography>
            <div className='stylish'></div>
