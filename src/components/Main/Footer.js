@@ -65,13 +65,13 @@ export default function Footer() {
                  marginLeft:'10px',
                  marginRight:'10px'
              }} variant='body1'>
-             Plot 2B Zone 3, Police Command, Behind Kofare Primary School, Kofare, Jimeta-Yola
+             Opposite Lamdo Khadi's Masjid, Mayo-Belwa Local Government.
              </Typography>
              <Typography style={{
                  marginTop:'20px'
              }} variant='button'>
-             08039342888
-             nobleintellectsacaemy.sch.ng
+             +2347037373353
+             alirshadacademy.com
              </Typography>
             </div>
 

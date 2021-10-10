@@ -80,6 +80,7 @@ height: 70px;
         </ul>
     <IconButton onClick={()=>{
         setOpen(true)
+    
     }} className='menu' aria-label="delete">
        <Menu></Menu> 
     </IconButton>
@@ -97,9 +98,8 @@ height: 70px;
           <Divider></Divider>
           <List component="nav" aria-label="main mailbox folders">
         <ListItem onClick={()=>{
-            console.log(props)
             setOpen(false)
-
+            props.history.push('/')
         }} button>
           <ListItemIcon>
              <HomeOutlined></HomeOutlined>
@@ -112,7 +112,7 @@ height: 70px;
 
       <List component="nav" aria-label="main mailbox folders">
         <ListItem onClick={()=>{
-            props.history.push('/')
+            props.history.push('/about')
             setOpen(false)
 
         }} button>
@@ -129,7 +129,7 @@ height: 70px;
 
       <List component="nav" aria-label="main mailbox folders">
         <ListItem onClick={()=>{
-            props.history.push('/')
+            props.history.push('/gallery')
             setOpen(false)
 
         }} button>
@@ -145,7 +145,7 @@ height: 70px;
 
       <List component="nav" aria-label="main mailbox folders">
         <ListItem onClick={()=>{
-            props.history.push('/')
+            props.history.push('/contact')
             setOpen(false)
 
         }} button>

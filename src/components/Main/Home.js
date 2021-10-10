@@ -250,7 +250,7 @@ export default function Home() {
 	}} width='100%' height='100vh'>
 
     </Particles>
-    <Fade triggerOnce>
+   
     <div className='whyText'>
     <Typography align='center' style={{
                color:'#161e35',
@@ -260,6 +260,7 @@ export default function Home() {
            }} variant='h4'>Why Al-Irshad Academy?</Typography>
 
     <div className='whyContainer'>
+    <Fade triggerOnce>
      <div className='whyMain'>
          <Menu></Menu>
          <div className='mainText'>
@@ -279,12 +280,13 @@ export default function Home() {
            </Typography>
          </div>
      </div>
+     </Fade>
 
 
 
 
 
-
+     <Fade triggerOnce>
      <div className='whyMain'>
          <Menu></Menu>
          <div className='mainText'>
@@ -304,12 +306,14 @@ export default function Home() {
            </Typography>
          </div>
      </div>
+     </Fade>
 
 
 
 
 
-
+    
+     <Fade triggerOnce>
 
      <div className='whyMain'>
          <Menu></Menu>
@@ -329,6 +333,7 @@ export default function Home() {
            </Typography>
          </div>
      </div>
+     </Fade>
 
 
 
@@ -339,8 +344,7 @@ export default function Home() {
 
 
 
-
-
+     <Fade triggerOnce>
      <div className='whyMain'>
          <Menu></Menu>
          <div className='mainText'>
@@ -362,14 +366,14 @@ export default function Home() {
            </Typography>
          </div>
      </div>
+     </Fade>
 
 
 
 
 
 
-
-
+<Fade triggerOnce>
      <div className='whyMain'>
          <Menu></Menu>
          <div className='mainText'>
@@ -391,11 +395,11 @@ export default function Home() {
          </div>
      </div>
 
+     </Fade>
 
 
 
-
-
+   <Fade triggerOnce>
      <div className='whyMain'>
          <Menu></Menu>
          <div className='mainText'>
@@ -414,9 +418,10 @@ export default function Home() {
            </Typography>
          </div>
      </div>
+     </Fade>
     </div>
     </div>
-    </Fade>
+    
     </div>
 
     <div className='miniWrite'>
@@ -428,9 +433,8 @@ export default function Home() {
                fontWeight:'light',
                marginLeft:'20px',
            }} variant='h5'>
-               Al-Irshad Academy is a wonderful school for young children. 
-               The children are smart, kind, and supportive. The school is well organized and 
-               efficient. The kids are in the right hands.
+              The School was introduced and esterblished by Malam Mustapha Bala  Abdullahi, in accordance
+               with the prevalence law and approval of MINISTRY OF EDUCATION Adamawa state..
 
            </Typography>
            <div className='stylish'></div>
