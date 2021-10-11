@@ -40,6 +40,9 @@ min-height: 50vh;
        margin-top: 20px;
        justify-content: center;
        align-items: center;
+       a{
+           margin: 20px;
+       }
    }
     }
 }
@@ -77,10 +80,9 @@ export default function Footer() {
             </div>
 
             <div className='social'>
-           <Facebook></Facebook>
-           <WhatsApp></WhatsApp>
-           <Twitter></Twitter>
-           <Mail></Mail>
+         <a href='https://www.facebook.com/143227706339153/posts/150333472295243/?app=fbl'><Facebook></Facebook></a>
+          <a href='https://api.whatsapp.com/send?phone=+2347081948631'> <WhatsApp></WhatsApp></a>
+          <a href = "mailto:alirshadacademymayobelwa@gmail.com"> <Mail></Mail></a>
             </div>
              
             </div>
