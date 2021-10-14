@@ -222,7 +222,7 @@ export default function Home() {
            }} variant='body1'>
            We strive to provide highest quality education, bridging your
             child's success with well formed infrastructure of knowledge and resources 
-            and at same time shaping up there relationship with Allah.
+            and at same time shaping up their relationship with Allah.
            </Typography>
              </div>
            </div>
